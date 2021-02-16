@@ -2,7 +2,9 @@
 title: "Categorizing Grandpa's Memoirs"
 author: "Jack Hopper"
 date: "1/18/2021"
-output: html_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
